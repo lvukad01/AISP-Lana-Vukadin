@@ -51,7 +51,7 @@ int ocj(char* naziv, Student* studenti, int br)
 	if (dat == NULL)
 	{
 
-		printf("greska");
+		printf("greska pri otvaranju datoteke");
 		return -1;
 	}
 	int i = 0;
@@ -71,7 +71,7 @@ int br_redaka(char* naziv)
 	if (dat == NULL)
 	{
 
-		printf("greska");
+		printf("greska pri otvaranju datoteke");
 		return -1;
 	}
 	while (!feof(dat))

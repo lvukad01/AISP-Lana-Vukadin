@@ -44,21 +44,24 @@ int main()
 	Osoba head;
 	head.Next = NULL;
 	int izbor = 0;
-	printf("\nunesite broj za radnju koju zelite odraditi:\n1. dinamièki dodati novi element na poèetak liste\n2. ispis liste\n3. dinamièki dodajati novi element na kraj liste,\n4. pronalazak elementa u listi(po prezimenu),\n5. brisanje odreðenog element iz liste\n6. dinamièki dodaje novi element iza odreðenog elementa\n7.dinamièki dodaje novi element ispred odreðenog elementa\n8. sortira listu po prezimenima osoba\n9. upisuje listu u datoteku\n10.èita listu iz datoteke.\n11.kraj programa\n");
 
 	while (izbor != 11)
 	{
+		printf("\nunesite broj za radnju koju zelite odraditi:\n1. dinamièki dodati novi element na poèetak liste\n2. ispis liste\n3. dinamièki dodajati novi element na kraj liste,\n4. pronalazak elementa u listi(po prezimenu),\n5. brisanje odreðenog element iz liste\n6. dinamièki dodaje novi element iza odreðenog elementa\n7.dinamièki dodaje novi element ispred odreðenog elementa\n8. sortira listu po prezimenima osoba\n9. upisuje listu u datoteku\n10.èita listu iz datoteke.\n11.kraj programa\n");
+
 		scanf("%d", &izbor);
 		switch (izbor)
 		{
 		case 1:
 			unos(&head);
+			printf("Osoba je uspješno unesena u listu na poèetak.\n");
 			break;
 		case 2:
 			ispis(head.Next);
 			break;
 		case 3:
 			unos_kraj(&head);
+			printf("Osoba je uspješno unesena u listu na kraj.\n");
 			break;
 		case 4:
 		{
@@ -70,30 +73,37 @@ int main()
 			}
 			else
 			{
-				printf("nema");
+				printf("\nnema tog elementa u listi\n ");
 			}
 			break;
 		}
 		case 5:
 			brisi(&head);
+			printf("Osoba je uspješno izbrisana iz liste.\n");
 			break;
 		case 6:
 			unos_iza(&head);
+			printf("Osoba je uspješno dodana iza odabrane osobe.\n");
 			break;
 		case 7:
 			unos_ispred(&head);
+			printf("Osoba je uspješno dodana ispred odabrane osobe.\n");
 			break;
 		case 8:
 			sort(&head);
+			printf("Osoba je uspješno sortirano unesena po prezimenu.\n");
 			break;
 		case 9:
 			write(head.Next);
+			printf("Lista je uspješno upisana u datoteku.\n");
 			break;
 		case 10:
 			read(&head);
+			printf("Lista je uspješno uèitana iz datoteke.\n");
 			break;
 		case 11:
 			zatvori(&head);
+			printf("Kraj programa.\n");
 			break;
 
 		default:
@@ -111,7 +121,7 @@ int unos(Pozicija p)
 
 	if (q == NULL)
 	{
-		printf("greska u alokaciji");
+		printf("\ngreska u alokaciji\n");
 		return -1;
 	}
 	else
@@ -128,7 +138,7 @@ int ispis(Pozicija a)
 
 	if (a == NULL)
 	{
-		printf("prazno");
+		printf("\nprazna datoteka\n");
 	}
 	else
 	{
@@ -176,6 +186,11 @@ int brisi(Pozicija p)
 	printf("\nUpisite prezime osobe koju zelite izbrisati\n");
 	scanf(" %s", a);
 	Pozicija q = p;
+	if (p == NULL)
+	{
+		printf("\nprazna datoteka\n");
+		return 0;
+	}
 	while (p != NULL)
 	{
 		if (strcmp(a, p->Next->prezime) == 0)
@@ -194,7 +209,7 @@ int unos_iza(Pozicija p)
 	Pozicija q = trazi(p);
 	if (q == NULL)
 	{
-		printf("osoba nije pronadjena");
+		printf("\nosoba nije pronadjena\n");
 		return 0;
 	}
 	else
@@ -226,7 +241,7 @@ int unos_ispred(Pozicija p)
 	Pozicija q = trazip(p);
 	if (q == NULL)
 	{
-		printf("osoba nije pronadjena");
+		printf("\nosoba nije pronadjena\n");
 		return 0;
 	}
 	else
@@ -238,10 +253,15 @@ int unos_ispred(Pozicija p)
 int sort(Pozicija p)
 {
 	Pozicija q = (Pozicija)malloc(sizeof(Osoba));
+	if (q == NULL)
+	{
+		printf("\ngreska u alokaciji\n");
+		return -1;
+	}
 	Pozicija temp = p;
 
 
-	printf("upisite ime prezime i godinu rodj\n");
+	printf("\nupisite ime prezime i godinu rodj\n");
 	scanf("%s %s %d", q->ime, q->prezime, &q->god_rod);
 	q->Next = NULL;
 	if (p->Next == NULL)
@@ -270,7 +290,7 @@ int write(Pozicija p)
 	FILE* dat = fopen("vjezba23.txt", "w");
 	if (p == NULL)
 	{
-		printf("prazno");
+		printf("\nprazna datoteka\n");
 	}
 	else
 	{
@@ -325,7 +345,7 @@ int zatvori(Pozicija p)
 	Pozicija q;
 	if (p->Next == NULL)
 	{
-		printf("prazno");
+		printf("prazna datoteka");
 	}
 	else
 	{

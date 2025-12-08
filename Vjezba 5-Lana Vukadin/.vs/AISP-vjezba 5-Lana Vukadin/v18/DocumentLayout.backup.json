@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\AISP-vjezbe\\Vjezba 5-Lana Vukadin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3977EB1B-4E72-4CEA-97E1-0F66C0968528}|AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.vcxproj|C:\\Users\\Korisnik\\AISP-vjezbe\\Vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3977EB1B-4E72-4CEA-97E1-0F66C0968528}|AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.vcxproj|solutionrelative:AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3977EB1B-4E72-4CEA-97E1-0F66C0968528}|AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.vcxproj|C:\\Users\\Korisnik\\AISP-vjezbe\\Vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin\\dat1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3977EB1B-4E72-4CEA-97E1-0F66C0968528}|AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.vcxproj|solutionrelative:AISP-vjezba 5-Lana Vukadin\\dat1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3977EB1B-4E72-4CEA-97E1-0F66C0968528}|AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.vcxproj|C:\\Users\\Korisnik\\AISP-vjezbe\\Vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin\\dat2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3977EB1B-4E72-4CEA-97E1-0F66C0968528}|AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.vcxproj|solutionrelative:AISP-vjezba 5-Lana Vukadin\\dat2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dat2.txt",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\AISP-vjezbe\\Vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin\\dat2.txt",
+              "RelativeDocumentMoniker": "AISP-vjezba 5-Lana Vukadin\\dat2.txt",
+              "ToolTip": "C:\\Users\\Korisnik\\AISP-vjezbe\\Vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin\\dat2.txt",
+              "RelativeToolTip": "AISP-vjezba 5-Lana Vukadin\\dat2.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-08T15:12:01.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dat1.txt",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\AISP-vjezbe\\Vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin\\dat1.txt",
+              "RelativeDocumentMoniker": "AISP-vjezba 5-Lana Vukadin\\dat1.txt",
+              "ToolTip": "C:\\Users\\Korisnik\\AISP-vjezbe\\Vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin\\dat1.txt",
+              "RelativeToolTip": "AISP-vjezba 5-Lana Vukadin\\dat1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-08T15:12:01.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AISP-vjezba 5-Lana Vukadin.cpp",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\AISP-vjezbe\\Vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.cpp",
+              "RelativeDocumentMoniker": "AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.cpp",
+              "ToolTip": "C:\\Users\\Korisnik\\AISP-vjezbe\\Vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.cpp",
+              "RelativeToolTip": "AISP-vjezba 5-Lana Vukadin\\AISP-vjezba 5-Lana Vukadin.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T15:12:01.789Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

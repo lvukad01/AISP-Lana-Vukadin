@@ -14,23 +14,36 @@ typedef struct Cvor* Pozicija;
  int ispis(Pozicija);
  int Presjek(Pozicija, Pozicija, Pozicija);
  int Unija(Pozicija, Pozicija, Pozicija);
+ int zatvori(Pozicija);
 int main()
 {
 	Cvor L1, L2, U, P;
 	L1.Next = L2.Next = U.Next = P.Next = NULL;
-	read(&L1);
+	if(read(&L1)==-1)
+		return -1;
 	printf("\nL1:");
-	ispis(L1.Next);
-	read(&L2);
+	if(ispis(L1.Next)==-1)
+		return -1;
+	if(read(&L2)==-1)
+		return -1;
 	printf("\nL2:");
-	ispis(L2.Next);
-	Presjek(L1.Next, L2.Next,&P);
+	if(ispis(L2.Next)==-1)
+		return -1;
+	if(Presjek(L1.Next, L2.Next,&P)==-1)
+		return -1;
 	printf("\nPresjek:");
-	ispis(P.Next);
-	Unija(L1.Next, L2.Next, &U);
+	if(ispis(P.Next)==-1)
+		return -1;
+	if(Unija(L1.Next, L2.Next, &U)==-1)
+		return -1;
 	printf("\nUnija:");
-	ispis(U.Next);
-
+	if(ispis(U.Next)==-1)
+		return -1;
+	zatvori(&L1);
+	zatvori(&L2);
+	zatvori(&P);
+	zatvori(&U);
+	printf("\nIzlaz iz programa");
 	return 0;
 	
 
@@ -46,7 +59,7 @@ int read(Pozicija p)
 	FILE* dat=fopen(ime,"r");
 	if (dat == NULL)
 	{
-		printf("Greska");
+		printf("Greska u citanju datoteke");
 		return -1;
 	}
 
@@ -80,6 +93,11 @@ int read(Pozicija p)
 }
 int ispis(Pozicija p)
 {
+	if (p == NULL)
+	{
+		printf("lista je prazna");
+		return -1;
+	}
 	printf("\n");
 	while (p != NULL)
 	{
@@ -199,4 +217,28 @@ int Unija(Pozicija p, Pozicija q, Pozicija z)
 	
 
 	return 0;
+}
+int zatvori(Pozicija p)
+{
+	Pozicija q;
+	if (p->Next == NULL)
+	{
+		printf("prazno");
+	}
+	else
+	{
+		while (p->Next != NULL)
+		{
+
+			q = p;
+			while (q->Next->Next != NULL)
+			{
+				q = q->Next;
+			}
+			free(q->Next);
+			q->Next = NULL;
+		}
+	}
+	return 0;
+
 }
