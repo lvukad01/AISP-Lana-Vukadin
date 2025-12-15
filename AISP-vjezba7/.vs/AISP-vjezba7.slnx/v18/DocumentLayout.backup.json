@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\source\\repos\\AISP-vjezba7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8383C433-BBF6-40B0-BF13-CC4047427C5E}|AISP-vjezba7\\AISP-vjezba7.vcxproj|C:\\Users\\Korisnik\\source\\repos\\AISP-vjezba7\\AISP-vjezba7\\AISP-vjezba7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8383C433-BBF6-40B0-BF13-CC4047427C5E}|AISP-vjezba7\\AISP-vjezba7.vcxproj|solutionrelative:AISP-vjezba7\\AISP-vjezba7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AISP-vjezba7.cpp",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\AISP-vjezba7\\AISP-vjezba7\\AISP-vjezba7.cpp",
+              "RelativeDocumentMoniker": "AISP-vjezba7\\AISP-vjezba7.cpp",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\AISP-vjezba7\\AISP-vjezba7\\AISP-vjezba7.cpp",
+              "RelativeToolTip": "AISP-vjezba7\\AISP-vjezba7.cpp",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAowPMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T15:31:27.446Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

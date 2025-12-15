@@ -1,0 +1,10 @@
+﻿  AISP-vjezba7.cpp
+C:\Users\Korisnik\source\repos\AISP-vjezba7\AISP-vjezba7\AISP-vjezba7.cpp(16,16): warning C4091: 'typedef ': ignored on left of 'QCvor' when no variable is declared
+C:\Users\Korisnik\source\repos\AISP-vjezba7\AISP-vjezba7\AISP-vjezba7.cpp(24,16): warning C4091: 'typedef ': ignored on left of 'Cvor' when no variable is declared
+C:\Users\Korisnik\source\repos\AISP-vjezba7\AISP-vjezba7\AISP-vjezba7.cpp(47,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Korisnik\source\repos\AISP-vjezba7\AISP-vjezba7\AISP-vjezba7.cpp(167,10): warning C4129: 'S': unrecognized character escape sequence
+C:\Users\Korisnik\source\repos\AISP-vjezba7\AISP-vjezba7\AISP-vjezba7.cpp(175,36): warning C4474: 'printf' : too many arguments passed for format string
+      C:\Users\Korisnik\source\repos\AISP-vjezba7\AISP-vjezba7\AISP-vjezba7.cpp(175,36):
+      placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  
+  AISP-vjezba7.vcxproj -> C:\Users\Korisnik\source\repos\AISP-vjezba7\x64\Debug\AISP-vjezba7.exe
