@@ -1,0 +1,4 @@
+﻿  vjezba9.cpp
+C:\Users\Korisnik\AISP-vjezbe\vjezba9\vjezba9\vjezba9.cpp(14,15): warning C4101: 't2': unreferenced local variable
+C:\Users\Korisnik\AISP-vjezbe\vjezba9\vjezba9\vjezba9.cpp(14,11): warning C4101: 't1': unreferenced local variable
+  vjezba9.vcxproj -> C:\Users\Korisnik\AISP-vjezbe\vjezba9\x64\Debug\vjezba9.exe

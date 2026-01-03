@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB2B77B9-38A5-4DF1-9A09-E7E94FC114E6}|vjezba8\\vjezba8.vcxproj|C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\vjezba8\\vjezba8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB2B77B9-38A5-4DF1-9A09-E7E94FC114E6}|vjezba8\\vjezba8.vcxproj|solutionrelative:vjezba8\\vjezba8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\vjezba8\\vjezba8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vjezba8\\vjezba8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2B77B9-38A5-4DF1-9A09-E7E94FC114E6}|vjezba8\\vjezba8.vcxproj|C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\vjezba8\\Text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{FB2B77B9-38A5-4DF1-9A09-E7E94FC114E6}|vjezba8\\vjezba8.vcxproj|solutionrelative:vjezba8\\Text.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\vjezba8\\Novi.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vjezba8\\Novi.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\vjezba8\\Text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vjezba8\\Text.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -37,6 +37,23 @@
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Novi.txt",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\vjezba8\\Novi.txt",
+              "RelativeDocumentMoniker": "vjezba8\\Novi.txt",
+              "ToolTip": "C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\vjezba8\\Novi.txt",
+              "RelativeToolTip": "vjezba8\\Novi.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-03T12:08:33.524Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "vjezba8.cpp",
@@ -44,20 +61,20 @@
               "RelativeDocumentMoniker": "vjezba8\\vjezba8.cpp",
               "ToolTip": "C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\vjezba8\\vjezba8.cpp",
               "RelativeToolTip": "vjezba8\\vjezba8.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-15T15:36:38.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Text.txt",
               "DocumentMoniker": "C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\vjezba8\\Text.txt",
               "RelativeDocumentMoniker": "vjezba8\\Text.txt",
               "ToolTip": "C:\\Users\\Korisnik\\AISP-vjezbe\\vjezba8\\vjezba8\\Text.txt",
               "RelativeToolTip": "vjezba8\\Text.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-12-15T15:09:18.604Z",
               "EditorCaption": ""
