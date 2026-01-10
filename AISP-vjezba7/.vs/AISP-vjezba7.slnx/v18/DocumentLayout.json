@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\AISP-vjezbe\\AISP-vjezba7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Korisnik\\AISP-vjezbe\\AISP-vjezba7\\AISP-vjezba7\\AISP-vjezba7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AISP-vjezba7\\AISP-vjezba7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8383C433-BBF6-40B0-BF13-CC4047427C5E}|AISP-vjezba7\\AISP-vjezba7.vcxproj|C:\\Users\\Korisnik\\AISP-vjezbe\\AISP-vjezba7\\AISP-vjezba7\\AISP-vjezba7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8383C433-BBF6-40B0-BF13-CC4047427C5E}|AISP-vjezba7\\AISP-vjezba7.vcxproj|solutionrelative:AISP-vjezba7\\AISP-vjezba7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "AISP-vjezba7\\AISP-vjezba7.cpp",
               "ToolTip": "C:\\Users\\Korisnik\\AISP-vjezbe\\AISP-vjezba7\\AISP-vjezba7\\AISP-vjezba7.cpp",
               "RelativeToolTip": "AISP-vjezba7\\AISP-vjezba7.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowEoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-08T15:31:27.446Z",
               "EditorCaption": ""

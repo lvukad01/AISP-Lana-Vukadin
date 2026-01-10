@@ -54,11 +54,23 @@ int main()
             }
 
             int n = Calculate(a, data[0], b);
-            Push(&head, n);
+            if (Push(&head, n) != 0)
+            {
+                printf("Izlaz iz programa\n");
+				FreeStack(&head);
+                fclose(dat);
+				return -1;
+            };
         }
         else  
         {
-            Push(&head, x);
+            if (Push(&head, x) != 0)
+            {
+				printf("Izlaz iz programa\n");
+                FreeStack(&head);
+				fclose(dat);
+				return -1;
+            };
         }
     }
 

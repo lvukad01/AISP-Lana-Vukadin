@@ -55,10 +55,20 @@ int main()
         switch (choice)
         {
         case 1:
-            Stack(&head);
+            if (Stack(&head) != 0)
+            {
+				printf("Izlaz iz programa\n");
+				zatvori(&head);
+                return -1;
+            };
             break;
         case 2:
-            Queue(&qhead);
+            if (Queue(&qhead) != 0)
+            {
+				printf("Izlaz iz programa\n");
+                zatvoriQ(&qhead);
+				return -1;
+            };
             break;
         case 3:
             break;
@@ -94,7 +104,10 @@ int Stack(Position p)
         switch (choice)
         {
         case 1:
-            Push(p, max);
+            if (Push(p, max) != 0)
+            {
+				return -1;
+            };
             PrintList(p);
             break;
         case 2:
@@ -202,7 +215,10 @@ int Queue(QPosition p)
         switch (choice)
         {
         case 1:
-            Enqueue(p);
+            if (Enqueue(p) != 0)
+            {
+				return -1;
+            };
             PrintListQ(p);
             break;
         case 2:
